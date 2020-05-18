@@ -1,0 +1,13 @@
+main{
+  padding-top: 77px;	
+}
+
+main .sobre-nosotros .nosotros{
+	padding: 30px 0px;
+  text-align: justify;
+} 
+
+main .sobre-nosotros .nosotros h2,h3{
+  text-decoration: underline;
+}
+

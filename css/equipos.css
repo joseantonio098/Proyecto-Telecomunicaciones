@@ -1,0 +1,45 @@
+.contenedor-grande .promocion img{
+    width: 200px;
+    height: 230px;
+    cursor: pointer;
+    box-shadow: 2px 2px 7px 2px rgba(0,0,0,.5);
+
+}
+
+
+.contenedor-grande{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor-grande .promocion {
+    margin: 30px 20px;
+    border: 2px solid rgba(0,0,0,.2);
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    transition: box-shadow .5s ease;
+}
+
+.contenedor-grande .promocion{
+    background-color: white ;
+    text-align: center;
+}
+
+.contenedor-grande .promocion:hover{
+    box-shadow: 2px 2px 2px 4px rgba(0,0,0,.5);
+}
+
+.contenedor-grande .promocion .precio{
+    margin-left: 10px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 0px;
+    color: rgba(0,0,0,.8);
+    border: 2px solid rgba(0,0,0,.1);
+    padding: 10px 0px;
+}
+

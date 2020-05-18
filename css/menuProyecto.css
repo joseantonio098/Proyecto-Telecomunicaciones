@@ -1,0 +1,124 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box; 
+}
+
+body{
+ background-color: #ccc;
+}
+
+header{
+ position: fixed;
+ width: 100%; 
+ padding: 6px 6px;
+ border-bottom: 1px solid rgba(0,0,0,.5);
+ box-shadow:1px 1px 2px rgba(0,0,0,.5);
+ background-color: #fff;
+ z-index: 100;
+ min-width: 1300px;
+}
+
+.contenedor{
+ max-width: 1200px;
+ margin: auto; 
+}
+
+.menu-principal{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.menu-principal .logo img{
+ vertical-align: top;	
+ cursor: pointer;
+}
+
+.menu-principal .menu-navegacion{
+ margin-left: 20px;	
+ display: flex;
+ align-items: center;
+}
+
+.menu-principal .menu-navegacion .redes-sociales{
+ padding-left: 93px;	
+}
+
+.menu-principal .menu-navegacion .redes-sociales img{
+margin-right: 6px;
+border-radius: 6px;
+}
+
+.menu-principal .menu-navegacion .redes-sociales img:hover{
+ opacity: .5;
+
+}
+
+.menu-principal .menu-navegacion .menu{	 
+ display: flex;	
+ flex-wrap: wrap; 
+}
+
+.menu-principal .menu-navegacion .menu a{
+ text-decoration: none;	
+ display: block;
+ color: #565656;
+ padding: 10px 0px;
+ width: 150px;
+ font-size: 20px;
+ text-align: center;
+}
+
+.menu-principal .menu-navegacion .menu .enl-prin{
+ border-right: 1px solid rgba(0,0,0,.4);	
+}
+
+.menu-principal .menu-navegacion .menu li ul{
+ display: none;
+}	
+
+
+.menu-principal .menu-navegacion .menu a:hover{
+ background-color: #EEEEEE;
+ }
+
+.menu-principal .menu-navegacion .menu li{
+ list-style: none;
+ display: block;
+}
+ 
+.menu-principal .menu-navegacion .menu li:hover .servicios,
+.menu-principal .menu-navegacion .menu li:hover .productos,
+.menu-principal .menu-navegacion .menu li:hover .promociones{
+ display: block;
+ position: absolute;	
+ background-color: #fff;
+}	
+
+.menu-principal .menu-navegacion .menu li:hover .enl-prin{
+  background-color: #EEEEEE;
+	
+}
+ 
+.menu-principal .menu-navegacion .menu li .servicios li:hover .movil,
+.menu-principal .menu-navegacion .menu li .servicios li:hover .fijo{
+ position: absolute;	
+ display: block;	
+ transform: translate(150px,-43px);
+ background-color: #fff;
+}
+
+.menu-principal .menu-navegacion .menu li .servicios li:hover .enl-sec{
+  background-color: #EEEEEE;
+}
+
+.menu-principal .menu-navegacion .menu li .servicios li .movil li:hover .planes{
+ position: absolute;	
+ display: block;	
+ transform: translate(150px,-43px);	
+ background-color: #fff;
+}
+
+.menu-principal .menu-navegacion .menu li .servicios li .movil li:hover .enl-sec2{
+  background-color: #EEEEEE;
+}

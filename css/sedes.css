@@ -1,0 +1,17 @@
+.sede-pr{
+display: flex;
+}
+
+.sede-pr .sede{
+    margin-left: 50px;
+}
+
+.sede-pr p{
+    font-weight: bold;
+}
+
+.sede-pr .sede img{
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 10px 1px black;
+    cursor: pointer;
+}

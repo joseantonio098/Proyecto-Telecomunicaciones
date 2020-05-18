@@ -1,0 +1,31 @@
+.contenedor-grande .promocion img{
+    width: 500px;
+    height: 300px;
+    cursor: pointer;
+    box-shadow: 2px 2px 7px 2px rgba(0,0,0,.5);
+    transition: transform 1s ease;
+}
+
+
+.contenedor-grande{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contenedor-grande .promocion {
+    margin: 30px 30px;
+    border: 2px solid rgba(0,0,0,.2);
+    padding: 10px;
+
+}
+
+.contenedor-grande .promocion:hover img{
+    transform: perspective(500px) rotate3d(0, 1, 0, 20deg);
+}
+
+.contenedor-grande h2{
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}

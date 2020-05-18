@@ -1,0 +1,114 @@
+main{
+	width: 100%;
+	height: 100vh;
+	
+}
+
+main .seccion-ayuda{
+    cursor: pointer;	
+}
+main .seccion-ayuda .imagen-ayuda{
+	position: absolute;
+	width: 100%;
+}
+
+main .seccion-ayuda .buscador{
+	padding-top: 160px;
+	position: relative;
+	z-index: 10;
+	text-align: center;
+
+}
+
+main .seccion-ayuda .buscador h2{
+	font-size: 50px;
+	color: #fff;
+}
+
+main .seccion-ayuda .buscador p{
+	font-size: 28px;	
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 14px;
+}
+
+main .seccion-ayuda .buscador input[type="search"]{
+	width: 700px;
+	padding: 9px 15px;
+	font-size: 18px;
+	border: none;
+	box-shadow: 0px 0px 8px 4px rgba(0,0,0,.6);
+}
+
+main .seccion-ayuda .imagen-ayuda img{
+	width:100%;
+	opacity: .9;
+	vertical-align: top;
+	height: 500px;
+}
+
+main .seccion-ayuda:hover .imagen-ayuda img{
+	opacity: 1;
+}
+
+main .ayuda-principal{
+	margin-top: 178px;
+	background: #136a8a;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+main .ayuda-principal h2{
+	padding: 15px 0px;
+	color: white;
+	font-size: 25px;
+background: #3181A5;
+
+
+
+
+}
+
+main .ayuda-principal .ayuda-secundario{
+	display: flex;
+	justify-content: center;
+}
+
+main .ayuda-principal .ayuda-secundario img{
+	vertical-align: top;
+}
+
+main .ayuda-principal .ayuda-secundario  h3{
+	color: #fff;
+	padding-top: 10px;
+	padding-left: 10px;
+	text-align: center;
+	font-size: 21px;
+}
+
+main .ayuda-principal .ayuda-secundario .ayuda-latinMovil{
+	width: 20%;
+	text-align: center;
+	cursor: pointer;
+	padding-top: 10px;
+	margin: 0px 10px;
+	border-left:  1px solid white;
+	margin-bottom: 16px;
+}
+
+
+main .ayuda-principal .ayuda-secundario .ayuda-latinMovil:hover img{
+	transform: scale(.8,.8);
+}
+
+main .ayuda-principal .ayuda-secundario .ayuda-latinMovil img{
+    transition: transform 2s ease;
+
+}
+
+
+main .ayuda-principal .ayuda-secundario .ayuda-latinMovil .tecnicos{
+	border-right:  1px solid white;
+}
